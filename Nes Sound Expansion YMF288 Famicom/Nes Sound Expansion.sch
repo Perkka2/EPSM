@@ -112,7 +112,7 @@ L Device:C C1
 U 1 1 5F81461C
 P 6750 4150
 F 0 "C1" V 7002 4150 50  0000 C CNN
-F 1 "68pF" V 6911 4150 50  0000 C CNN
+F 1 "10uF" V 6911 4150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0504_1310Metric_Pad0.83x1.28mm_HandSolder" H 6788 4000 50  0001 C CNN
 F 3 "~" H 6750 4150 50  0001 C CNN
 	1    6750 4150
@@ -802,17 +802,6 @@ $EndComp
 Connection ~ 6050 6350
 Wire Wire Line
 	6050 6350 6050 6450
-$Comp
-L Diode:1N4148 D1
-U 1 1 5F812481
-P 7300 4150
-F 0 "D1" H 7300 4367 50  0000 C CNN
-F 1 "1N4148" H 7300 4276 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF" H 7300 3975 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7300 4150 50  0001 C CNN
-	1    7300 4150
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:+5V #PWR05
 U 1 1 5F82053D
@@ -1530,4 +1519,15 @@ F 3 "" H 5050 2700 50  0001 C CNN
 $EndComp
 Text GLabel 2300 1850 2    50   Input ~ 0
 A9
+$Comp
+L Device:R R4
+U 1 1 6086CC35
+P 7300 4150
+F 0 "R4" V 7093 4150 50  0000 C CNN
+F 1 "1k" V 7184 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7230 4150 50  0001 C CNN
+F 3 "~" H 7300 4150 50  0001 C CNN
+	1    7300 4150
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
