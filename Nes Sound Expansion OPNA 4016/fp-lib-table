@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "Nes Sound Expansion OPNA")(type KiCad)(uri "${KIPRJMOD}/Nes Sound Expansion OPNA.pretty")(options "")(descr ""))
+  (lib (name Connectors)(type KiCad)(uri "C:/Users/Perkka/Documents/Kicad/Nes Sound Expansion OPNA 4016/w_conn_av.pretty")(options "")(descr ""))
+  (lib (name audioconn)(type KiCad)(uri ${KIPRJMOD}/audioconn.pretty)(options "")(descr ""))
+)

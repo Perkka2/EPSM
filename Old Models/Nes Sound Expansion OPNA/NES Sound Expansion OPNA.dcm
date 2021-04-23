@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP YM2608
+D Software-Controlled Sound Generator, DIP-40
+K audio ssg 3ch
+$ENDCMP
+#
+$CMP YM3016
+D DA Converter 8 bits
+K DAC CNA
+F https://www.analog.com/media/en/technical-documentation/data-sheets/DAC08.pdf
+$ENDCMP
+#
+#End Doc Library

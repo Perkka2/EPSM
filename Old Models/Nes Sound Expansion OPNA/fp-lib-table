@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Nes Sound Expansion OPNA")(type KiCad)(uri "${KIPRJMOD}/Nes Sound Expansion OPNA.pretty")(options "")(descr ""))
+)
