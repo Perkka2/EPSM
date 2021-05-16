@@ -1540,4 +1540,10 @@ Wire Wire Line
 	1750 1550 1750 1400
 Wire Wire Line
 	1750 1400 2000 1400
+Text GLabel 2000 1200 0    50   Input ~ 0
+NMI
+Text GLabel 2000 2200 0    50   Input ~ 0
+IRQ
+Text GLabel 4500 3500 2    50   Input ~ 0
+IRQ
 $EndSCHEMATC

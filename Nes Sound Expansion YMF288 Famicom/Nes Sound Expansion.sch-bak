@@ -813,7 +813,7 @@ F 3 "" H 7450 4100 50  0001 C CNN
 	1    7450 4100
 	1    0    0    -1  
 $EndComp
-Text GLabel 3950 2650 2    50   Input ~ 0
+Text GLabel 4250 2650 2    50   Input ~ 0
 AudIn
 $Comp
 L 74xx:74LS174 U6
@@ -1215,7 +1215,7 @@ Text GLabel 5450 1500 2    50   Input ~ 0
 A13
 Text GLabel 5450 1600 2    50   Input ~ 0
 A14
-Text GLabel 5750 2700 2    50   Input ~ 0
+Text GLabel 5450 2700 2    50   Input ~ 0
 AudIn
 Text GLabel 5450 1400 2    50   Input ~ 0
 A12
@@ -1531,14 +1531,14 @@ F 3 "~" H 7300 4150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R6
 U 1 1 609556A0
-P 5600 2700
-F 0 "R?" V 5393 2700 50  0000 C CNN
-F 1 "3k" V 5484 2700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5530 2700 50  0001 C CNN
-F 3 "~" H 5600 2700 50  0001 C CNN
-	1    5600 2700
+P 4100 2650
+F 0 "R6" V 3893 2650 50  0000 C CNN
+F 1 "3k" V 3984 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4030 2650 50  0001 C CNN
+F 3 "~" H 4100 2650 50  0001 C CNN
+	1    4100 2650
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC
