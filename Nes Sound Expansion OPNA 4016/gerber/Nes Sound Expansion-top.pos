@@ -1,0 +1,45 @@
+### Module positions - created on 05/20/21 17:31:54 ###
+### Printed by Pcbnew version kicad (5.1.8)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                       Package                                                              PosX       PosY       Rot  Side
+BU9480F1  BU9480F                   SOIC-8_3.9x4.9mm_P1.27mm                                         133.3500  -100.0785   90.0000  top
+C1        10uF                      C_0805_2012Metric                                                118.4250   -73.6600  180.0000  top
+C2        10uF                      CP_Elec_4x5.3                                                    128.9050  -109.9600  270.0000  top
+C3        68pF                      C_0805_2012Metric                                                120.6500   -40.3250  270.0000  top
+C4        68pF                      C_0805_2012Metric                                                116.7130   -40.3250  270.0000  top
+C5        68pF                      C_0805_2012Metric                                                135.3820   -45.1460  270.0000  top
+C10       10uF                      CP_Elec_4x5.3                                                    133.9850  -109.9600  270.0000  top
+C11       10uF                      CP_Elec_4x5.3                                                    126.4920  -102.3400  270.0000  top
+C12       10uF                      CP_Elec_4x5.3                                                    121.4120  -102.3400  270.0000  top
+C13       10uF                      CP_Elec_4x5.3                                                    123.8250  -109.9600  270.0000  top
+J5        EN_Switch                 SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin   100.9650  -118.6820   90.0000  top
+J6        AudioJack2_Ground_Switch  Jack_3.5mm_PJ311_Horizontal                                      110.4900  -116.8400  180.0000  top
+J7        EN_LED                    LED_0805_2012Metric                                               99.1870  -111.3700  270.0000  top
+R1        1k                        R_0805_2012Metric                                                136.5250   -92.4300   90.0000  top
+R2        1k                        R_0805_2012Metric                                                132.7150   -92.4300   90.0000  top
+R3        1k                        R_0805_2012Metric                                                128.9050   -92.4300   90.0000  top
+R4        47k                       R_0805_2012Metric                                                104.0290   -96.7740  180.0000  top
+R5        560                       R_0805_2012Metric                                                130.8100  -119.7350   90.0000  top
+R6        3k                        R_0805_2012Metric                                                127.0000  -119.7350   90.0000  top
+R7        3k                        R_0805_2012Metric                                                119.3800  -119.7350   90.0000  top
+R8        560                       R_0805_2012Metric                                                123.1900  -119.7350   90.0000  top
+R9        330                       R_0805_2012Metric                                                 99.0600  -106.6800   90.0000  top
+R10       1k                        R_0805_2012Metric                                                118.1100  -109.5850   90.0000  top
+R12       1k                        R_0805_2012Metric                                                120.6500   -44.7200  270.0000  top
+R13       1k                        R_0805_2012Metric                                                116.7130   -44.7200  270.0000  top
+R14       1k                        R_0805_2012Metric                                                135.3820   -40.3625   90.0000  top
+R15       1k                        R_1206_3216Metric                                                123.1640   -73.6600  180.0000  top
+R16       1k                        R_0805_2012Metric                                                116.9670   -94.6150  180.0000  top
+R17       1k                        R_0805_2012Metric                                                116.9510   -91.5670  180.0000  top
+R18       47k                       R_0805_2012Metric                                                104.0290   -99.6950  180.0000  top
+R19       47k                       R_0805_2012Metric                                                104.0290   -93.7260  180.0000  top
+U1        74HC139D                  SOIC-16_3.9x9.9mm_P1.27mm                                        105.4100   -41.9100   90.0000  top
+U2        74HC132D                  SOIC-14_3.9x8.7mm_P1.27mm                                        128.2700   -42.5450    0.0000  top
+U6        74HC174D                  SOIC-16_3.9x9.9mm_P1.27mm                                        132.7150   -54.6100    0.0000  top
+U7        74HC174D                  SOIC-16_3.9x9.9mm_P1.27mm                                        121.2850   -54.6100    0.0000  top
+U8        74HC257D                  SOIC-16_3.9x9.9mm_P1.27mm                                        120.6500   -66.0400  270.0000  top
+U9        74HC257D                  SOIC-16_3.9x9.9mm_P1.27mm                                        132.0800   -66.0400  270.0000  top
+U10       74HC257D                  SOIC-16_3.9x9.9mm_P1.27mm                                        100.3300   -57.1500    0.0000  top
+X1        CXO_DIP8                  Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm                123.6370   -93.7960  270.0000  top
+## End
