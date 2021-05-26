@@ -1541,4 +1541,6 @@ F 3 "~" H 4100 2650 50  0001 C CNN
 	1    4100 2650
 	0    1    1    0   
 $EndComp
+Text GLabel 7550 3400 2    50   Input ~ 0
+IRQ
 $EndSCHEMATC

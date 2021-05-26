@@ -521,51 +521,14 @@ F 3 "" H 6550 3200 50  0001 C CNN
 	1    6550 3200
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R1
-U 1 1 605439A0
-P 8250 2600
-F 0 "R1" V 8043 2600 50  0000 C CNN
-F 1 "1k" V 8134 2600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8180 2600 50  0001 C CNN
-F 3 "~" H 8250 2600 50  0001 C CNN
-	1    8250 2600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 60544211
-P 8250 2700
-F 0 "R2" V 8043 2700 50  0000 C CNN
-F 1 "1k" V 8134 2700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8180 2700 50  0001 C CNN
-F 3 "~" H 8250 2700 50  0001 C CNN
-	1    8250 2700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 60544656
-P 8250 2800
-F 0 "R3" V 8043 2800 50  0000 C CNN
-F 1 "1k" V 8134 2800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8180 2800 50  0001 C CNN
-F 3 "~" H 8250 2800 50  0001 C CNN
-	1    8250 2800
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8100 2600 8100 2300
 Wire Wire Line
 	8100 2300 7550 2300
 Wire Wire Line
-	8100 2700 8000 2700
-Wire Wire Line
 	8000 2700 8000 2500
 Wire Wire Line
 	8000 2500 7550 2500
-Wire Wire Line
-	8100 2800 7900 2800
 Wire Wire Line
 	7900 2800 7900 2600
 Wire Wire Line
@@ -1543,4 +1506,10 @@ F 3 "~" H 4100 2650 50  0001 C CNN
 $EndComp
 Text GLabel 7550 3400 2    50   Input ~ 0
 IRQ
+Wire Wire Line
+	8100 2600 8400 2600
+Wire Wire Line
+	8000 2700 8400 2700
+Wire Wire Line
+	7900 2800 8400 2800
 $EndSCHEMATC
