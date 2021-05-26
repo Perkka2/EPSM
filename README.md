@@ -23,7 +23,8 @@ It uses 5 lines to set Chip Enable, A0 (Register/Data) and A1
 
 ### Example
 
-```EPSM CE1 = CPU A14
+```
+EPSM CE1 = CPU A14
 EPSM CE2 = ROMSEL
 EPSM CE3 = R/W
 EPSM A0  = CPU A13
@@ -36,7 +37,8 @@ C000 for register A1=0, C002 for register A1=1, E000 data A1=0, E002 data A1=1
 
 ###  Example code for $4016
 
-```;address write A1=0
+```
+;address write A1=0
 LDA value
 PHA
 AND #$F0
