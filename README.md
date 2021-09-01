@@ -24,11 +24,11 @@ It uses 5 lines to set Chip Enable, A0 (Register/Data) and A1
 ### Example
 
 ```
-EPSM CE1 = CPU A14
-EPSM CE2 = ROMSEL
-EPSM CE3 = R/W
-EPSM A0  = CPU A13
-EPSM A1  = CPU A1
+EXP8 - EPSM CE1 = CPU A14
+EXP3 - EPSM CE2 = ROMSEL
+EXP1 - EPSM CE3 = R/W
+EXP4 - EPSM A0  = CPU A13
+EXP7 - EPSM A1  = CPU A1
 ```
 
 When connected like this the EPSM will listen to C00x/E00x
