@@ -54,7 +54,7 @@ A12
 Text GLabel 1900 5300 2    50   Input ~ 0
 A9
 Text Notes 2150 6700 0    95   ~ 0
-0\n1\n0\n0\n0\n0\n0\n0\n0\n0\n0\n1\n1\n1\n0\n0
+1\n1\n1\n0\n0\n0\n0\n0\n0\n0\n0\n0\n1\n1\n1\n0\n0
 $Comp
 L 74xx:74LS138 U3
 U 1 1 60A117DA
@@ -94,31 +94,23 @@ Text GLabel 2400 2450 0    50   Input ~ 0
 A3
 Text GLabel 7950 2500 0    50   Input ~ 0
 A4
-Text GLabel 5350 2200 0    50   Input ~ 0
+Text GLabel 5350 2600 0    50   Input ~ 0
 A5
-Text GLabel 5350 2100 0    50   Input ~ 0
+Text GLabel 5350 2700 0    50   Input ~ 0
 A6
 Text GLabel 5350 2000 0    50   Input ~ 0
-A7
-Text GLabel 5350 2600 0    50   Input ~ 0
-A8
-Text GLabel 5350 2700 0    50   Input ~ 0
 A9
 Text GLabel 2400 2150 0    50   Input ~ 0
 A10
-Text GLabel 2400 2050 0    50   Input ~ 0
-A11
 Text GLabel 2400 1950 0    50   Input ~ 0
 A12
 Text GLabel 7950 2600 0    50   Input ~ 0
 A13
 Text GLabel 7950 2200 0    50   Input ~ 0
 A14
-Wire Wire Line
-	7950 2000 7950 2100
-Text GLabel 7950 2700 0    50   Input ~ 0
-ROMSEL
 Text GLabel 7950 2100 0    50   Input ~ 0
+ROMSEL
+Text GLabel 7950 2700 0    50   Input ~ 0
 R-W
 $Comp
 L power:+5V #PWR0101
@@ -144,7 +136,7 @@ F 3 "" H 1900 7050 50  0001 C CNN
 $EndComp
 Text GLabel 1750 4400 2    50   Input ~ 0
 ROMSEL
-Text GLabel 8950 2400 2    50   Input ~ 0
+Text GLabel 8950 2700 2    50   Input ~ 0
 EN2
 Text GLabel 2400 2550 0    50   Input ~ 0
 EN2
@@ -295,9 +287,9 @@ Text GLabel 4700 4100 0    50   Input ~ 0
 A14
 Text GLabel 4700 5000 0    50   Input ~ 0
 ROMSEL
-Text GLabel 4700 4300 0    50   Input ~ 0
+Text GLabel 4150 4300 0    50   Input ~ 0
 EXP4
-Text GLabel 4700 4400 0    50   Input ~ 0
+Text GLabel 4100 4400 0    50   Input ~ 0
 EXP7
 Text GLabel 4700 4500 0    50   Input ~ 0
 EXP8
@@ -305,4 +297,20 @@ Text GLabel 4700 4600 0    50   Input ~ 0
 EXP1
 Text GLabel 4700 4700 0    50   Input ~ 0
 EXP3
+Text GLabel 5350 2100 0    50   Input ~ 0
+A8
+Text GLabel 2400 2050 0    50   Input ~ 0
+A11
+Text GLabel 5350 2200 0    50   Input ~ 0
+A7
+Text GLabel 4700 4300 0    50   Input ~ 0
+A1
+Text GLabel 4700 4400 0    50   Input ~ 0
+A0
+Text GLabel 1900 4250 2    50   Input ~ 0
+M2
+Text GLabel 7950 2000 0    50   Input ~ 0
+M2
+Text GLabel 4700 3800 0    50   Input ~ 0
+M2
 $EndSCHEMATC

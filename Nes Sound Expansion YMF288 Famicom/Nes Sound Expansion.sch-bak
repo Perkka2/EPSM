@@ -1680,14 +1680,16 @@ F 3 "" H 9750 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R9
 U 1 1 60CF7CEF
 P 10900 2500
-F 0 "R?" V 10693 2500 50  0000 C CNN
+F 0 "R9" V 10693 2500 50  0000 C CNN
 F 1 "1k" V 10784 2500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10830 2500 50  0001 C CNN
 F 3 "~" H 10900 2500 50  0001 C CNN
 	1    10900 2500
 	1    0    0    -1  
 $EndComp
+Text GLabel 1550 2600 0    50   Input ~ 0
+M2
 $EndSCHEMATC
