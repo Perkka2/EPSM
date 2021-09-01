@@ -1014,12 +1014,12 @@ F 7 "C:\\Users\\Perkka\\Documents\\Kicad\\Models\\Digital Logic\\74HC.LIB" H 215
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C2
+L Device:C C2
 U 1 1 6054E068
 P 6850 2900
 F 0 "C2" V 7105 2900 50  0000 C CNN
 F 1 "10uF" V 7014 2900 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 6888 2750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6888 2750 50  0001 C CNN
 F 3 "~" H 6850 2900 50  0001 C CNN
 	1    6850 2900
 	0    -1   -1   0   
@@ -1667,29 +1667,7 @@ F 3 "~" H 9050 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9200 2700 8750 2700
-$Comp
-L Device:R R21
-U 1 1 60D36BE8
-P 8750 2850
-F 0 "R21" V 8543 2850 50  0000 C CNN
-F 1 "47k" V 8634 2850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8680 2850 50  0001 C CNN
-F 3 "~" H 8750 2850 50  0001 C CNN
-	1    8750 2850
-	-1   0    0    1   
-$EndComp
 Connection ~ 8750 2700
-$Comp
-L Device:R R20
-U 1 1 60D36BEF
-P 8750 2550
-F 0 "R20" V 8543 2550 50  0000 C CNN
-F 1 "47k" V 8634 2550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8680 2550 50  0001 C CNN
-F 3 "~" H 8750 2550 50  0001 C CNN
-	1    8750 2550
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:+5V #PWR0139
 U 1 1 60D36BF5
@@ -1721,7 +1699,7 @@ F 1 "68pF" V 8711 2850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8588 2700 50  0001 C CNN
 F 3 "~" H 8550 2850 50  0001 C CNN
 	1    8550 2850
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8450 2700 8550 2700
@@ -1751,17 +1729,6 @@ Wire Wire Line
 Connection ~ 8050 3600
 Wire Wire Line
 	8050 3600 8050 3850
-$Comp
-L Device:C C6
-U 1 1 60D66C35
-P 8300 2700
-F 0 "C6" V 8552 2700 50  0000 C CNN
-F 1 "10uF" V 8461 2700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8338 2550 50  0001 C CNN
-F 3 "~" H 8300 2700 50  0001 C CNN
-	1    8300 2700
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:C C7
 U 1 1 60D67816
@@ -1825,4 +1792,37 @@ Wire Wire Line
 	4950 2800 5350 2800
 Wire Wire Line
 	4850 2900 5350 2900
+$Comp
+L Device:C C6
+U 1 1 60D66C35
+P 8300 2700
+F 0 "C6" V 8552 2700 50  0000 C CNN
+F 1 "10uF" V 8461 2700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8338 2550 50  0001 C CNN
+F 3 "~" H 8300 2700 50  0001 C CNN
+	1    8300 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 60D36BEF
+P 8750 2550
+F 0 "R20" V 8543 2550 50  0000 C CNN
+F 1 "47k" V 8634 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8680 2550 50  0001 C CNN
+F 3 "~" H 8750 2550 50  0001 C CNN
+	1    8750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 60D36BE8
+P 8750 2850
+F 0 "R21" V 8543 2850 50  0000 C CNN
+F 1 "47k" V 8634 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8680 2850 50  0001 C CNN
+F 3 "~" H 8750 2850 50  0001 C CNN
+	1    8750 2850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
