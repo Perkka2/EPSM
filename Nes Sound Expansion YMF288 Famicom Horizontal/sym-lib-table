@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "EPSM-Famicom")(type "KiCad")(uri "${KIPRJMOD}/EPSM-Famicom.kicad_sym")(options "")(descr ""))
+)
