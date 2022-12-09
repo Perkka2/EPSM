@@ -21,9 +21,8 @@ It uses an Yamaha YMF288 Soundchip that gives a lot of new audio capabilities to
   * EverDrive N8
   * EverDrive N8 Pro
   * Other carts using EXP2, EXP6 or EXP9 to output audio
-* 3.5mm jack for Stereo output
-  * Can output the EPSM audio on the ordinary NES outputs
-  * Can output NES audio on the EPSM 3.5mm jack
+* Alternative 3.5mm jack for Stereo output
+  * EPSM Audio forwarding to the NES RCA/RF outputs are disabled when the 3.5mm jack is plugged in
 
 ## Tools
 * Mesen-X: Supports playback of EPSM using any mapper.
@@ -35,5 +34,6 @@ It uses an Yamaha YMF288 Soundchip that gives a lot of new audio capabilities to
 
 ## Usage
 * [Addressing](Docs/Addressing.md)
+* [Addressing Fiskbit's Fallback Handler](Docs/Fiskbit-FallbackHandler.md)
 * [NESDev wiki](https://www.nesdev.org/wiki/Expansion_Port_Sound_Module)
 * [N8 Pro Mappers with EPSM Addressing](Files/N8ProEPSM.zip)
