@@ -23,6 +23,7 @@ It uses an Yamaha YMF288 Soundchip that gives a lot of new audio capabilities to
   * Other carts using EXP2, EXP6 or EXP9 to output audio
 * Alternative 3.5mm jack for Stereo output
   * EPSM Audio forwarding to the NES RCA/RF outputs are disabled when the 3.5mm jack is plugged in
+  * NES Audio and Cart Expansion audio plays as Dual Mono on the 3.5mm jack.
 
 ## Tools
 * Mesen-X: Supports playback of EPSM using any mapper.
