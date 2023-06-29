@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name "NES Sound Expansion OPNA")(type Legacy)(uri "${KIPRJMOD}/NES Sound Expansion OPNA.lib")(options "")(descr ""))
-  (lib (name Nes-Sound-Expansion-rescue)(type Legacy)(uri "${KIPRJMOD}/Nes Sound Expansion-rescue.lib")(options "")(descr ""))
+  (version 7)
+  (lib (name "NES Sound Expansion OPNA")(type "KiCad")(uri "${KIPRJMOD}/NES Sound Expansion OPNA.kicad_sym")(options "")(descr ""))
+  (lib (name "Nes-Sound-Expansion-rescue")(type "KiCad")(uri "${KIPRJMOD}/Nes Sound Expansion-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "eec")(type "KiCad")(uri "${KIPRJMOD}/eec.kicad_sym")(options "")(descr ""))
 )
